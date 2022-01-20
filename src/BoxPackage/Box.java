@@ -1,9 +1,9 @@
 package BoxPackage;
 
 public class Box {
-    private double width;
-    private double height;
-    private double length;
+    public double width;
+    public double height;
+    public double length;
 
     public Box(double width, double height, double length) {
         this.width = width;
@@ -38,9 +38,5 @@ public class Box {
     public double volume() {
         double vol = width * height * length;
         return vol;
-    }
-
-    {
-
     }
 }
